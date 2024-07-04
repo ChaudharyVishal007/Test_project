@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.shop.BaseClass">
+        <methods>
+          <include name="afterclass"/>
+          <include name="TestLoginFunctioanlity"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.shop.BaseClass -->
+      <class name="com.shop.order_history">
+        <methods>
+          <include name="afterclass"/>
+          <include name="action"/>
+          <include name="TestLoginFunctioanlity"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.shop.order_history -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
