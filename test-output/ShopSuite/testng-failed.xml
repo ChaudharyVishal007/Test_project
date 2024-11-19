@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShopSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomepageTests(failed)">
+    <classes>
+      <class name="com.shop.Homepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="banner"/>
+          <include name="contentBlock"/>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="verifyLogoAndClick"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.shop.Homepage -->
+    </classes>
+  </test> <!-- HomepageTests(failed) -->
+</suite> <!-- Failed suite [ShopSuite] -->
