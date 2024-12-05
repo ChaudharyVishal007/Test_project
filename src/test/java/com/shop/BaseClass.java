@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
@@ -23,7 +24,7 @@ public class BaseClass {
         driver = new ChromeDriver();
         driver.get(baseUrl);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         
         // Verify page title
         String testTitle = "Customer Login";

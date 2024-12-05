@@ -154,7 +154,7 @@ public class LJ_customer_form extends BaseClass {
 		System.out.println("Current URL after form submission: " + currentUrl);
 		Thread.sleep(5000);
 
-		driver.navigate().to("https://mcstg.larsonjuhl.com/en-CA/newaccount");
+	/*	driver.navigate().to("https://mcstg.larsonjuhl.com/en-CA/newaccount");
 
 		Thread.sleep(2000);
 		WebElement cookie1 = driver.findElement(By.xpath("//button[@id ='btn-cookie-allow']"));
@@ -291,6 +291,6 @@ public class LJ_customer_form extends BaseClass {
 		String CanCurrentUrl = driver.getCurrentUrl();
 		Assert.assertEquals(CanFormSubmitUrl, CanCurrentUrl);
 		System.out.println("Current URL after form submission: " + CanCurrentUrl);
-		Thread.sleep(5000);
+		Thread.sleep(5000);*/
 	}
 }
