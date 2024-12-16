@@ -48,15 +48,31 @@
         	<artifactId>RestAssured</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
+        
+    <!-- JUnit 5 for testing -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.0</version> <!-- Use the latest version -->
+    </dependency>
+
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.13.0</version> <!-- Use the latest version -->
+    </dependency>
+
+    <!-- WebDriverManager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.5.0</version> <!-- Use the latest version -->
+    </dependency>
+
     </dependencies>
     
-    <repositories>
-        <repository>
-            <id>jacob-repo</id>
-            <url>https://repo1.maven.org/maven2/net/sf/jacob-project/jacob/1.18-M2/</url>
-        </repository>
-    </repositories>
-    
+  
     <build>
         <plugins>
             <plugin>

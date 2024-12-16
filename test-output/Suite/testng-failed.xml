@@ -3,14 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.shop.Order_confirmation">
+      <class name="com.shop.End_to_End_Flow">
         <methods>
           <include name="afterClass"/>
-          <include name="Product_MegaMenu"/>
           <include name="beforeClass"/>
-          <include name="Filters"/>
+          <include name="PDP"/>
         </methods>
-      </class> <!-- com.shop.Order_confirmation -->
+      </class> <!-- com.shop.End_to_End_Flow -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

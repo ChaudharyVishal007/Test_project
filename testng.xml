@@ -4,9 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
     <class name="com.shop.BaseClass"/>
-    <class name="com.shop.LoginPage"/>
-         <class name="com.shop.Order_confirmation"/>
-      
-    </classes>
+    <class name="com.shop.End_to_End_Flow"/>
+         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
