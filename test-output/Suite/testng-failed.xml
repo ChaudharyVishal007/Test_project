@@ -5,8 +5,12 @@
     <classes>
       <class name="com.shop.End_to_End_Flow">
         <methods>
+          <include name="closeInformation"/>
+          <include name="Product_MegaMenu"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="PLP"/>
+          <include name="TestLoginFunctioanlity"/>
           <include name="PDP"/>
         </methods>
       </class> <!-- com.shop.End_to_End_Flow -->

@@ -56,13 +56,6 @@
         <version>5.10.0</version> <!-- Use the latest version -->
     </dependency>
 
-    <!-- Selenium WebDriver -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.13.0</version> <!-- Use the latest version -->
-    </dependency>
-
     <!-- WebDriverManager -->
     <dependency>
         <groupId>io.github.bonigarcia</groupId>
